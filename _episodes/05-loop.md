@@ -64,7 +64,7 @@ Here's a simple example that displays the first three lines of each file in turn
 ~~~
 $ for filename in basilisk.dat unicorn.dat
 > do
->    head -n 3 $filename	# Indentation within the loop aids legibility
+>    head -n 3 $filename\t# Indentation within the loop aids legibility
 > done
 ~~~
 {: .language-bash}
@@ -138,7 +138,7 @@ name: `$filename` is equivalent to `${filename}`, but is different from
 > ~~~
 > for datafile in *.pdb
 > do
->	ls $datafile
+>\tls $datafile
 > done
 > ~~~
 > {: .language-bash}
@@ -155,7 +155,7 @@ name: `$filename` is equivalent to `${filename}`, but is different from
 > > ```
 > > for datafile in cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
 > > do
-> >	ls cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+> >\tls cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
 > > done
 > > ```
 > > {: .language-bash}
@@ -711,3 +711,4 @@ so she decides to get some coffee and catch up on her reading.
 > > Try running the code for yourself to see which directories are created!
 > {: .solution}
 {: .challenge}
+

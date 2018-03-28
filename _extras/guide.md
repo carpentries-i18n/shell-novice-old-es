@@ -92,10 +92,10 @@ as long as learners using Windows do not run into roadblocks such as:
 *   Website: various practices have been used.
     *   Option 1: Can give links to learners before the lesson so they can follow along,
         catch up,
-	and see exercises (particularly if you're following the lesson content without many changes).
+\tand see exercises (particularly if you're following the lesson content without many changes).
     *   Option 2: Don't show the website to the learners during the lesson, as it can be distracting:
         students may read instead of listen, and having another window open is an additional cognitive load.
-	*   In any case, make sure to point to website as a post-workshop reference.
+\t*   In any case, make sure to point to website as a post-workshop reference.
 
 *   Content:
     Unless you have a truly generous amount of time (4+ hours),
@@ -253,3 +253,4 @@ And please also make use of our
 
 [shebang]: http://www.in-ulm.de/~mascheck/various/shebang/
 [windows-installer]: {{ site.swc_github }}/windows-installer
+

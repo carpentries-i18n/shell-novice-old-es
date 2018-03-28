@@ -487,7 +487,7 @@ $ ls -F
 {: .language-bash}
 
 ~~~
-amino-acids.txt   elements/     pdb/	        salmon.txt
+amino-acids.txt   elements/     pdb/\t        salmon.txt
 animals.txt       morse.txt     planets.txt     sunspot.txt
 ~~~
 {: .output}
@@ -824,3 +824,4 @@ pressing tab twice brings up a list of all the files,
 and so on.
 This is called **tab completion**,
 and we will see it in many other tools as we go on.
+

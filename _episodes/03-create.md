@@ -739,3 +739,4 @@ but it does find the copy in `thesis` that we didn't delete.
 > > interactively, prompting for confirmation for each file and directory.
 > {: .solution}
 {: .challenge}
+

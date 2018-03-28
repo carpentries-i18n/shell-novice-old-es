@@ -303,9 +303,9 @@ $ bash sorted.sh *.pdb ../creatures/*.dat
 > > # Loop over all files
 > > for file in $@ 
 > > do
-> > 	echo "Unique species in $file:"
-> > 	# Extract species names
-> > 	cut -d , -f 2 $file | sort | uniq
+> > \techo "Unique species in $file:"
+> > \t# Extract species names
+> > \tcut -d , -f 2 $file | sort | uniq
 > > done
 > > ```
 > > {: .source}
@@ -611,3 +611,4 @@ Of course, this introduces another tradeoff between flexibility and complexity.
 > > an empty string.
 > {: .solution}
 {: .challenge}
+
