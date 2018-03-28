@@ -25,3 +25,4 @@ These lessons will start you on a path towards using these resources effectively
 > searching for files with `grep` and `find`, and writing simple loops
 > and scripts, you probably want to explore the next lesson: [shell-extras](swcarpentry.github.io/shell-extras).
 {: .prereq}
+

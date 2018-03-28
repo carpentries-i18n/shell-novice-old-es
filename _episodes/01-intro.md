@@ -50,7 +50,7 @@ so because when you type a command and press the Enter (or Return) key, the shel
 3. Prints the output
 
 and then prints the prompt and waits for you to enter another command.
- 
+
 ### The Shell
 
 A shell is a program like any other.

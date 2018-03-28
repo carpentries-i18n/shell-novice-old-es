@@ -360,8 +360,8 @@ Miscellaneous:
 > > ```
 > > for sis in Jo Meg Beth Amy
 > > do
-> > 	echo $sis:
-> >	grep -ow $sis LittleWomen.txt | wc -l
+> > \techo $sis:
+> >\tgrep -ow $sis LittleWomen.txt | wc -l
 > > done
 > > ```
 > > {: .source}
@@ -370,8 +370,8 @@ Miscellaneous:
 > > ```
 > > for sis in Jo Meg Beth Amy
 > > do
-> > 	echo $sis:
-> >	grep -ocw $sis LittleWomen.txt
+> > \techo $sis:
+> >\tgrep -ocw $sis LittleWomen.txt
 > > done
 > > ```
 > > {: .source}
@@ -678,3 +678,4 @@ about them."
 > > {: .language-bash}
 > {: .solution}
 {: .challenge}
+
